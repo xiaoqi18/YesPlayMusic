@@ -1,1 +1,8 @@
-
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://wangyiyun-api-gamma.vercel.app/:match*"
+    }
+  ]
+}
